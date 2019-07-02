@@ -1,0 +1,67 @@
+/*
+    Everything in this block is about styling our HTML code
+    CSS defines or re-defines existing code
+*/
+/* Tag Selector: Targets a plain HTML Tag */
+body {
+    background-color: goldenrod;
+    font-size: 110%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ID Selector: Targets a Tag with a certain ID */
+div#page {
+    max-width: 940px;
+    min-width: 720px;
+    background-color: paleturquoise;
+    /* The four sides of the box, top, left, bottom, right, going CW*/
+    margin: 10px auto 10px auto;
+    /* Margin is "outside" the box, Padding is "inside" the box */
+    padding: 25px;
+    border: 2px solid whitesmoke;
+}
+
+div#logo {
+    width: 320px;
+    height: 342px;
+    margin: 10px auto 10px auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Selects a <ul> with a certain ID Attribute */
+ul#navigation {
+    width: 570px;
+    padding: 15px;
+    margin: 0 auto 0 auto;
+    border-top: 2px solid black;
+    border-bottom: 5px solid black;
+    text-align: center;
+}
+
+/* Selects a <li> inside of an <ul> with a certain Attribute */
+ul#navigation li {
+    display: inline;
+    margin: 15px;
+}
+
+ul#navigation li a {
+    color: white;
+    background-color: rgb(245, 83, 245);
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+ul#navigation li a:hover {
+    color: black;
+    box-shadow: 1px -2px 5px black;
+}
+
+p {
+    text-align: center;
+    width: 600px;
+    margin: 20px auto 20px auto;
+}
